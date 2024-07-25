@@ -3,11 +3,19 @@ import "./Loading.css"
 
 export function Loading(){
 
-        useEffect(()=>{
-            const timer = setTimeout(runTimer, 2000)
-            function runTimer(){
-                document.getElementById('sumir').style.opacity = 0;
-                setTimeout(() => {
+
+        // Esconde o scroll
+        const disableScroll = () => {
+          document.body.style.overflow = "hidden";
+        };
+        disableScroll();
+
+      // efeito que tira o loading
+        useEffect(()=>{ 
+            const timer = setTimeout(runTimer, 2000) //definindo timer
+            function runTimer(){ //chamando função declarada no timer
+                document.getElementById('sumir').style.opacity = 0; //pegando elemento e removendo devagar
+                setTimeout(() => { //function que remove main da tela
                     document.getElementById('sumir').remove();
                 }, 3000);
             }
