@@ -12,14 +12,19 @@ header nav#nav-bar ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.5s ease-in-out;
 }
 
 header nav#nav-bar ul li a{
     color: white;
-    font-weight: 400;
+    font-weight: 0;
+    transition: 0.5s;
+}
+header nav#nav-bar ul li a:hover{
+    border-bottom: 1px solid white;
+    border-radius: 5px;
 }
 
 header nav#nav-bar ul li img{
     width: 100px;
 }
-
