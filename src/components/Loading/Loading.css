@@ -1,0 +1,34 @@
+main div#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    height: 100vh;
+}
+
+main div#container h2{
+    padding: 1rem;
+    font-size: 4.3rem;
+    font-weight: 400;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.47942927170868344) 0%, rgba(255,255,255,1) 37%);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: fadeIn 1.3s ease-in;
+}
+
+main div#container h1{
+    padding: 1.5rem;
+    font-size: 6.5rem;
+    font-weight: 700;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.47942927170868344) 0%, rgba(255,255,255,1) 37%);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: fadeIn 2.3s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1;}
+  }
