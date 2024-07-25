@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header nav#nav-bar{
+    padding-top: 1.7rem;
+    width: 70%;
+}
+
+header nav#nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav#nav-bar ul li a{
+    color: white;
+    font-weight: 400;
+}
+
