@@ -3,12 +3,14 @@ import "./Loading.css"
 
 export function Loading(){
 
+        // const enableScroll = () => {
+        // document.body.style.overflow = "auto";
+        // }
+        // // Esconde o scroll
+        // const disableScroll = () => {
+        //   document.body.style.overflow = "hidden";
+        // };
 
-        // Esconde o scroll
-        const disableScroll = () => {
-          document.body.style.overflow = "hidden";
-        };
-        disableScroll();
 
       // efeito que tira o loading
         useEffect(()=>{ 
