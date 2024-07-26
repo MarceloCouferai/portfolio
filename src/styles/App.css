@@ -13,6 +13,15 @@ a{
     animation: fadeIn 2.3s ease-in;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1;}
