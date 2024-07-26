@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     color: white;
     font-family: 'Jost', sans-serif;
 }
@@ -15,11 +15,11 @@ a{
 
 ::-webkit-scrollbar {
     width: 10px;
-    background: white;
+    background: rgb(27, 27, 27);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: black;
+    background: rgb(10, 10, 10);
 }
 
 @keyframes fadeIn {

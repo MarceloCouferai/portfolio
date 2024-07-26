@@ -1,12 +1,8 @@
 import "./About.css"
-import eu from "../../assets/eu.png"
 
 export function About(){
     return(
         <main>
-            <div id="container-img">
-                <img src={eu} alt="" />
-            </div>
             <div id="container-title">
                 <h1>MARCELO COUFERAI</h1>
                 <p>ANALISTA DE NEGÓCIOS</p>

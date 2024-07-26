@@ -7,7 +7,7 @@ export function Academic(props){
     AOS.init();
     return(
         <section data-aos="fade-up">
-            <h1>Acadêmico</h1>
+            <h1>{props.title}</h1>
             <div id="container">
                 <a href={props.site}>
                     <img src={props.cursoImg} alt="" />

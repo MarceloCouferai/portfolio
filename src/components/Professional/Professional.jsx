@@ -10,6 +10,7 @@ export function Professional(props){
     return(
         <section data-aos="fade-up">
             <div id="container">
+                <h1>{props.title}</h1>
                 <a href={props.site}><img src={props.img} alt="" /></a>
                 <p>{props.conteudo}</p>
             </div> 
