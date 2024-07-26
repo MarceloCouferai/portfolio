@@ -1,22 +1,32 @@
 import './Academic.css'
-import '../../assets/unifeb.png'
+import imgIn from'../../assets/entrada.png'
+import imgOut from'../../assets/saida.png'
+import AOS from 'aos';
 
 export function Academic(props){
+    AOS.init();
     return(
-        <section>
-            <img src={props.cursoImg} alt="" />
-            <p>{props.cursoName}</p>
-            <ul>
-                <li>
-                    <img src="" alt="" />
-                    <p></p>
-                </li>
-                <li>
-                    <img src="" alt="" />
-                    <p></p>
-                </li>
-            </ul>
-            <button>Exibir Certificado</button> 
+        <section data-aos="fade-up">
+            <h1>Acadêmico</h1>
+            <div id="container">
+                <a href={props.site}>
+                    <img src={props.cursoImg} alt="" />
+                </a>
+                <p>{props.cursoName}</p>
+            </div>
+            <div id="container-bottom">
+                <ul>
+                    <li>
+                        <img src={imgIn} alt="" />
+                        <p>{props.dateIn}</p>
+                    </li>
+                    <li>
+                        <img src={imgOut} alt="" />
+                        <p>{props.dateOut}</p>
+                    </li>
+                </ul>
+                <button>Exibir Certificado</button> 
+            </div>
         </section>
     )
 }

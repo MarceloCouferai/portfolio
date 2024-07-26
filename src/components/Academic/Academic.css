@@ -1,0 +1,57 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 3rem;
+}
+
+section h1{
+    padding-bottom: 6rem;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+section div#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 80%;
+    text-align: justify;
+    padding-bottom: 1.5rem;
+}
+
+
+section div a img{
+    width: 250px;
+}
+
+section div#container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section div#container-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section div button{
+    color: white;
+    font-weight: 650;
+    font-size: 18px;
+    margin-top: 2rem;
+    background-color: grey;
+    border-radius: 100px;
+    width: 250px;
+    height: 60px;
+    border: solid 0px transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section div button:hover{
+    background-color: rgb(94, 93, 93);
+    background: linear-gradient(270deg, rgba(168, 168, 168, 0.479) 19%, rgb(34, 34, 34) 73%);
+}
