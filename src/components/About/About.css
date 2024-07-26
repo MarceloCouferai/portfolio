@@ -4,7 +4,7 @@ main{
     align-items: center;
     gap: 5rem;
     justify-content: center;
-    height: 88vh;
+    height: 100vh;
 }
 
 main div#container-title{

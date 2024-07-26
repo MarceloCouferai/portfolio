@@ -2,9 +2,11 @@ import React from 'react';
 import logoImg from '../../assets/logo.png'
 import "./Navbar.css";
 
+
 export function Navbar() {
+
     return(
-        <header>
+        <header id='sumir'>
             <nav id="nav-bar">
                 <ul>
                     <li><a href="/">SOBRE MIM</a></li>

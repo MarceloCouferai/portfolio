@@ -4,6 +4,7 @@ header{
 }
 
 header nav#nav-bar{
+    /* position: fixed; */
     padding-top: 1.7rem;
     width: 70%;
 }
@@ -28,3 +29,8 @@ header nav#nav-bar ul li a:hover{
 header nav#nav-bar ul li img{
     width: 50px;
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1;}
+  }

@@ -5,6 +5,7 @@ main div#container{
     gap: 5rem;
     justify-content: center;
     height: 100vh;
+    
 }
 
 main div#container h2{
