@@ -1,4 +1,5 @@
 import './IconsAcademic.css';
+import AOS from 'aos';
 import powerBI from '../../assets/PowerBI-Logo.webp';
 import react from '../../assets/react.png';
 import excel from '../../assets/excel.png'
@@ -14,8 +15,9 @@ import css from '../../assets/css-3 (1).png';
 import word from '../../assets/palavra.png';
 
 export function IconsAcademic(){
+    AOS.init();
     return(
-        <section>
+        <section  data-aos="fade-up">
             <div id="title">
                 <p>Além dessas formações concluídas e em andamento, foram feitos outras formações extra-curriculares e experiência profissional, adquirindo conhecimento nos seguintes itens:</p>
             </div>

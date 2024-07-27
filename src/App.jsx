@@ -14,6 +14,7 @@ import ha from './assets/ha branca.png';
 import usp from './assets/esalq-usp-logo-branco-2.png';
 import knn from './assets/knn.png'
 import etec from './assets/etec.png'
+import { Footer } from "./components/Footer/Footer";
 
 export function App() {
 
@@ -49,6 +50,7 @@ export function App() {
                     <Academic cursoImg={etec} cursoName="Técnico em Informática" dateIn="Janeiro de 2017" dateOut="Julho de 2018"/>
 
                     <IconsAcademic />
+                    <Footer />
                 </div>
             )}
         </div>

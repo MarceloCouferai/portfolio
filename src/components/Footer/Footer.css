@@ -1,0 +1,31 @@
+footer{
+    background-color: rgb(19, 19, 19);
+    padding: 1rem;
+}
+
+footer div#container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer div#icons{
+    padding-top: 1rem;
+    gap: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div#icons img{
+    width: 50px;
+}
+
+footer div#dados{
+    padding-top: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
