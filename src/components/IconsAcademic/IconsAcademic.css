@@ -1,0 +1,23 @@
+section div#title{
+    max-width: 80%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-weight: 400;
+}
+
+section div#icons ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section div#icons ul li img{
+    width: 40px;
+    transition: 1s;
+    cursor: pointer;
+}
+section div#icons ul li img:hover{
+    width: 45px;
+}

@@ -6,6 +6,7 @@ import { About } from "./components/About/About";
 import { Professional } from "./components/Professional/Professional";
 import { Loading } from "./components/Loading/Loading";
 import { Academic } from "./components/Academic/Academic";
+import { IconsAcademic } from "./components/IconsAcademic/IconsAcademic";
 
 //images
 import unifeb from './assets/unifeb.png';
@@ -46,6 +47,8 @@ export function App() {
                     <Academic cursoImg={knn} cursoName="Língua inglesa e Literatura de língua inglesa" dateIn="Junho de 2023" dateOut="-"/>
 
                     <Academic cursoImg={etec} cursoName="Técnico em Informática" dateIn="Janeiro de 2017" dateOut="Julho de 2018"/>
+
+                    <IconsAcademic />
                 </div>
             )}
         </div>
