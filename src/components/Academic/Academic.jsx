@@ -30,7 +30,7 @@ export function Academic(props){
                 </ul>
                 {
                     botaoCertificado ? ( <a href={props.site}><button>Exibir Certificado</button></a>) : 
-                    (<a href={props.site}><button>Sem certificado digital</button></a>)
+                    (<a href={props.site}><button>Certificado Indisponível</button></a>)
                 }
             </div>
         </section>
