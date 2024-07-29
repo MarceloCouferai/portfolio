@@ -2,7 +2,7 @@ import "./About.css"
 
 export function About(){
     return(
-        <main id="about">
+        <main id="about" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             <div id="container-title">
                 <h1>MARCELO COUFERAI</h1>
                 <p>ANALISTA DE NEGÓCIOS</p>

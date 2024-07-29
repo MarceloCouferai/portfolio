@@ -31,3 +31,23 @@ main div#container-content{
     max-width: 60%;
     text-align: justify;
 }
+
+/* Responsividade*/
+
+@media screen and (max-width: 700px){
+
+    main div#container-title h1{
+        font-size: 3rem;
+    }
+    main div#container-title p{
+        font-size: 8px;
+    }
+
+    main div#container-title{
+        text-align: center;
+    }
+
+    main div#container-content{
+        max-width: 80%;
+    }
+}

@@ -19,5 +19,5 @@ section div#icons ul li img{
     cursor: pointer;
 }
 section div#icons ul li img:hover{
-    width: 45px;
+    transform: scale(1.1);
 }
