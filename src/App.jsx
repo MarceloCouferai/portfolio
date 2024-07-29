@@ -41,9 +41,9 @@ export function App() {
                     <Professional site='https://www.unifeb.edu.br/' img={ha} conteudo="Atuo como analista de negócios no Hospital de Amor, com foco principal na gestão e otimização do sistema RM - Totvs. Minhas responsabilidades incluem a manutenção, atualização e resolução de problemas técnicos do sistema, além do suporte aos usuários. Busco garantir a eficiência do sistema e sua adequação às necessidades da instituição, contribuindo para a melhoria contínua dos processos internos.
                     Anteriormente, atuei na área de suporte técnico, sendo responsável pela infraestrutura de todas as Unidades de Saúde Básica (UBS) da empresa. Nesse período, desenvolvi e acompanhei projetos de infraestrutura, prestei suporte a softwares e criei dashboards no PowerBI para a gestão das unidades" dateIn="Março de 2021 (Emprego atual)" dateOut="-"/>
 
-                    <Academic title="Acadêmico" cursoImg={unifeb} cursoName="Graduado em Sistemas de Informação" dateIn="Fevereiro de 2018" dateOut="Dezembro de 2022"/>
+                    <Academic visualizar={true} site="https://drive.google.com/file/d/1S4qQQRbjj-H9Qn_L1Uf4uRiibYWKkbgM/view?usp=sharing" title="Acadêmico" cursoImg={unifeb} cursoName="Graduado em Sistemas de Informação" dateIn="Fevereiro de 2018" dateOut="Dezembro de 2022"/>
 
-                    <Academic cursoImg={usp} cursoName="MBA em Engenharia de Software" dateIn="Maio de 2024" dateOut="-"/>
+                    <Academic site="false" visualizar={false} cursoImg={usp} cursoName="MBA em Engenharia de Software" dateIn="Maio de 2024" dateOut="-"/>
 
                     <Academic cursoImg={knn} cursoName="Língua inglesa e Literatura de língua inglesa" dateIn="Junho de 2023" dateOut="-"/>
 

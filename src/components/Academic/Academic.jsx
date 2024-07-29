@@ -1,12 +1,15 @@
+import React from 'react';
 import './Academic.css'
 import imgIn from'../../assets/entrada.png'
 import imgOut from'../../assets/saida.png'
 import AOS from 'aos';
 
+
 export function Academic(props){
+    const botaoCertificado = props.visualizar;
     AOS.init();
     return(
-        <section data-aos="fade-up">
+        <section id="academic" data-aos="fade-up">
             <h1>{props.title}</h1>
             <div id="container">
                 <a href={props.site}>
@@ -25,7 +28,10 @@ export function Academic(props){
                         <p>{props.dateOut}</p>
                     </li>
                 </ul>
-                <button>Exibir Certificado</button> 
+                {
+                    botaoCertificado ? ( <a href={props.site}><button>Exibir Certificado</button></a>) : 
+                    (<a href={props.site}><button>Sem certificado digital</button></a>)
+                }
             </div>
         </section>
     )
