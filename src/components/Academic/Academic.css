@@ -1,4 +1,4 @@
-section{
+section#container-academic{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,13 +6,13 @@ section{
     padding: 7rem 3rem;
 }
 
-section h1{
+section#container-academic h1{
     padding-bottom: 6rem;
     font-weight: 500;
     font-size: 60px;
 }
 
-section div#container{
+section div#container-academic{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@ section div a img{
     width: 250px;
 }
 
-section div#container p{
+section div#container-academic p{
     font-size: 18px;
     font-weight: 500;
 }

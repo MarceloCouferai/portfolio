@@ -9,9 +9,9 @@ export function Academic(props){
     const botaoCertificado = props.visualizar;
     AOS.init();
     return(
-        <section id="academic" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+        <section id="academic" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className='section-academic'>
             <h1>{props.title}</h1>
-            <div id="container">
+            <div id="container-academic">
                 <a href={props.site}>
                     <img src={props.cursoImg} alt="" />
                 </a>

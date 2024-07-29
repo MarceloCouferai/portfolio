@@ -8,13 +8,13 @@ import 'aos/dist/aos.css';
 export function Professional(props){
     AOS.init();
     return(
-        <section id="professional" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <div id="container">
+        <section id="professional" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className='section-professional'>
+            <div id="container-professional">
                 <h1>{props.title}</h1>
                 <a href={props.site}><img src={props.img} alt="" /></a>
                 <p>{props.conteudo}</p>
             </div> 
-            <div>
+            <div className='container-academic-dates'>
                 <ul>
                     <li>
                         <img src={imgIn} alt="Icone de entrada" />
