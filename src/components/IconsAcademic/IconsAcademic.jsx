@@ -17,7 +17,7 @@ import word from '../../assets/palavra.png';
 export function IconsAcademic(){
     AOS.init();
     return(
-        <section  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+        <section  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className='section-IconsAcademic'>
             <div id="title">
                 <p>Além dessas formações concluídas e em andamento, foram feitos outras formações extra-curriculares e experiência profissional, adquirindo conhecimento nos seguintes itens:</p>
             </div>

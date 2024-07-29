@@ -1,23 +1,23 @@
-section div#title{
-    max-width: 80%;
+section.section-IconsAcademic div#title{
     align-items: center;
     text-align: center;
     padding-bottom: 3rem;
     font-weight: 400;
 }
 
-section div#icons ul{
+section.section-IconsAcademic div#icons ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3rem;
 }
 
-section div#icons ul li img{
+section.section-IconsAcademic div#icons ul li img{
     width: 40px;
     transition: 1s;
     cursor: pointer;
 }
-section div#icons ul li img:hover{
-    transform: scale(1.1);
+section.section-IconsAcademic div#icons ul li img:hover{
+    transform: scale(1.2);
 }
