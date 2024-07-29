@@ -10,11 +10,11 @@ export function Navbar() {
         <header id='sumir'>
             <nav id="nav-bar">
                 <ul>
-                    <li><a href="/">SOBRE MIM</a></li>
-                    <li><a href="/">EXPERIÊNCIA</a></li>
+                    <li><a href="#about">SOBRE MIM</a></li>
+                    <li><a href="#professional">EXPERIÊNCIA</a></li>
                     <li><img src={logoImg} alt="logo M - Marcelo"/></li>
                     <li><a href="#academic">ACADÊMICO</a></li>
-                    <li><a href="/">CONTATO</a></li>
+                    <li><a href="#footer">CONTATO</a></li>
                 </ul>
             </nav>
         </header>

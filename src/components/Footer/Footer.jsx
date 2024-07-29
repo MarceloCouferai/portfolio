@@ -5,7 +5,7 @@ import git from '../../assets/github.png'
 
 export function Footer(){
     return(
-        <footer>
+        <footer id='footer'>
             <div id='container'>
                 <div id='icons'>
                     <a href="https://br.linkedin.com/in/marcelo-couferai">

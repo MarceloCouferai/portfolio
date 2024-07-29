@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 export function Professional(props){
     AOS.init();
     return(
-        <section data-aos="fade-up">
+        <section id="professional" data-aos="fade-up">
             <div id="container">
                 <h1>{props.title}</h1>
                 <a href={props.site}><img src={props.img} alt="" /></a>
