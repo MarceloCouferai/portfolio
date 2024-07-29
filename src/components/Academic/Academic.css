@@ -1,4 +1,4 @@
-section#container-academic{
+section.section-academic{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,39 +6,43 @@ section#container-academic{
     padding: 7rem 3rem;
 }
 
-section#container-academic h1{
-    padding-bottom: 6rem;
-    font-weight: 500;
-    font-size: 60px;
+section.section-academic h1{
+    padding-bottom: 3rem;
+    font-size: 35px;
 }
 
-section div#container-academic{
+section.section-academic div#container-academic{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     max-width: 80%;
-    text-align: justify;
+    text-align: center;
     padding-bottom: 1.5rem;
 }
 
-
-section div a img{
+section.section-academic div a img{
     width: 250px;
 }
 
-section div#container-academic p{
+section.section-academic div#container-academic p{
     font-size: 18px;
     font-weight: 500;
 }
 
-section div#container-bottom{
+section.section-academic div#container-bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-section div button{
+section.section-academic div#container-bottom img{
+    width: 20px;
+    height: 20px;
+}
+
+section.section-academic div button{
     color: white;
     font-weight: 650;
     font-size: 18px;
