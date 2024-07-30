@@ -14,7 +14,7 @@ export function Navbar() {
                     <li><a href="#Ancora-Professional">EXPERIÊNCIA</a></li>
                     <li><img src={logoImg} alt="logo M - Marcelo"/></li>
                     <li><a href="#AncoraAcademic">ACADÊMICO</a></li>
-                    <li><a href="#footer">CONTATO</a></li>
+                    <li><a href="#formAncora">CONTATO</a></li>
                 </ul>
             </nav>
         </header>
