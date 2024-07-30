@@ -1,8 +1,10 @@
 import './Contato.css'
+import AOS from 'aos';
 
 export function Contato(){
+    AOS.init();
     return(
-            <form id="formAncora" action="">
+            <form id="formAncora" action="" data-aos="zoom-in" >
                     <h3>Entre em contato!</h3>
                 <div className='container-form'>
                     <div className='container-form-option'>
