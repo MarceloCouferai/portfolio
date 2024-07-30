@@ -7,7 +7,8 @@ import { Professional } from "./components/Professional/Professional";
 import { Loading } from "./components/Loading/Loading";
 import { Academic } from "./components/Academic/Academic";
 import { IconsAcademic } from "./components/IconsAcademic/IconsAcademic";
-import { Contato } from "./components/Contato/Contato";
+// import { Contato } from "./components/Contato/Contato";
+// import { Footer } from "./components/Footer/Footer";
 
 //images
 import unifeb from './assets/unifeb.png';
@@ -15,7 +16,6 @@ import ha from './assets/ha branca.png';
 import usp from './assets/esalq-usp-logo-branco-2.png';
 import knn from './assets/knn.png'
 import etec from './assets/etec.png'
-import { Footer } from "./components/Footer/Footer";
 
 export function App() {
 
@@ -57,9 +57,9 @@ export function App() {
                         <IconsAcademic />
                     </div>
                     <div id="formAncora">
-                        <Contato />
+                        {/* <Contato /> */}
                     </div>
-                    <Footer />
+                    {/* <Footer /> */}
                 </div>
             )}
         </div>
