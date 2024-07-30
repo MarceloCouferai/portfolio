@@ -4,7 +4,7 @@ import AOS from 'aos';
 export function Contato(){
     AOS.init();
     return(
-            <form id="formAncora" action="" data-aos="fade-up"
+            <form action="" data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom">
                     <h3>Entre em contato!</h3>
                 <div className='container-form'>
