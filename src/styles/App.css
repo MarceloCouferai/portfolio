@@ -31,3 +31,10 @@ a{
     from { opacity: 0; }
     to { opacity: 1;}
   }
+
+  div#Ancora-Professional{
+    padding-top: 150px;
+    height: 100vh;
+    padding-bottom: 20rem;
+  }
+

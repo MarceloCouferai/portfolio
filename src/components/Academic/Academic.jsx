@@ -18,7 +18,6 @@ export function Academic(props){
                     <img src={props.cursoImg} alt="" />
                 </a>
                 <p>{props.cursoName}</p>
-            </div>
             <div id="container-bottom">
                 <ul>
                     <li>
@@ -35,6 +34,7 @@ export function Academic(props){
                     (<a href={props.site}><button>
                         Certificado Indisponível </button></a>)
                 }
+            </div>
             </div>
         </section>
     )

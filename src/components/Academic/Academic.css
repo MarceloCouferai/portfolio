@@ -55,7 +55,7 @@ section.section-academic div button{
     cursor: pointer;
     transition: 0.3s;
 }
-section div button:hover{
+section div  button:hover{
     background-color: rgb(94, 93, 93);
     background: linear-gradient(270deg, rgba(168, 168, 168, 0.479) 19%, rgb(34, 34, 34) 73%);
 }
