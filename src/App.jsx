@@ -7,6 +7,7 @@ import { Professional } from "./components/Professional/Professional";
 import { Loading } from "./components/Loading/Loading";
 import { Academic } from "./components/Academic/Academic";
 import { IconsAcademic } from "./components/IconsAcademic/IconsAcademic";
+import { Contato } from "./components/Contato/Contato";
 
 //images
 import unifeb from './assets/unifeb.png';
@@ -54,6 +55,9 @@ export function App() {
                         <Academic cursoImg={etec} cursoName="Técnico em Informática" dateIn="Janeiro de 2017" dateOut="Julho de 2018"/>
 
                         <IconsAcademic />
+                    </div>
+                    <div>
+                        <Contato />
                     </div>
                     <Footer />
                 </div>

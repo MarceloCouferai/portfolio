@@ -1,7 +1,6 @@
 import React from 'react';
 import logoImg from '../../assets/logo.png'
 import "./Navbar.css";
-import { App } from "../../App";
 
 
 
