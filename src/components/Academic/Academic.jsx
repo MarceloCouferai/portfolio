@@ -3,6 +3,8 @@ import './Academic.css'
 import imgIn from'../../assets/entrada.png'
 import imgOut from'../../assets/saida.png'
 import AOS from 'aos';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 
 export function Academic(props){
@@ -29,8 +31,9 @@ export function Academic(props){
                     </li>
                 </ul>
                 {
-                    botaoCertificado ? ( <a href={props.site}><button>Exibir Certificado</button></a>) : 
-                    (<a href={props.site}><button>Certificado Indisponível</button></a>)
+                    botaoCertificado ? ( <a href={props.site}><button>Exibir Certificado <FontAwesomeIcon icon={faLink} /></button></a>) : 
+                    (<a href={props.site}><button>
+                        Certificado Indisponível </button></a>)
                 }
             </div>
         </section>
