@@ -10,15 +10,15 @@ export function Contato(){
                 <div className='container-form'>
                     <div className='container-form-option'>
                         <label htmlFor="">Nome</label>
-                        <input type="text" nome="" id="inputName" placeholder="Insira seu nome"/>
+                        <input type="text" nome="" id="inputName"/>
                     </div>
                     <div className='container-form-option'>
                         <label htmlFor="">E-mail</label>
-                        <input type="email" placeholder="Insira seu endereço de e-mail"/>
+                        <input type="email"/>
                     </div>
                     <div className='container-form-option'>
-                        <label htmlFor="">Observação</label>
-                        <input type="text" placeholder="Digite sua mensagem..."/>
+                        <label htmlFor="">Mensagem</label>
+                        <textarea name="" id=""></textarea>
                     </div>
                     <button type="submit">Enviar</button>
                 </div>
