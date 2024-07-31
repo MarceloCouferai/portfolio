@@ -8,7 +8,7 @@
 - [Contato](#contato)
 
 ## Sobre o Projeto
-Este é o meu portfólio pessoal desenvolvido com React. Ele serve como uma vitrine dos meus projetos e habilidades como desenvolvedor. O objetivo é mostrar meu trabalho de forma organizada e atraente.
+Este é o meu portfólio pessoal desenvolvido com React. Ele serve como uma vitrine das minhas habilidades como profissional. O objetivo é mostrar meu trabalho de forma organizada e atraente.
 
 ## Demonstração
 Você pode acessar a versão ao vivo do meu portfólio [aqui](https://marcelo-couferai.vercel.app/).
