@@ -56,7 +56,7 @@ export function App() {
 
                         <IconsAcademic />
                     </div>
-                    <div id="formAncora">
+                    <div>
                         <Contato />
                     </div>
                     <Footer />

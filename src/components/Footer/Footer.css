@@ -33,3 +33,30 @@ footer div#dados{
 footer div#dados div.footer-email{
     display: flex;
 }
+
+
+@media screen and (max-width: 600px){
+    footer{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    footer div#icons img{
+        width: 30px;
+    }
+
+    footer div#container{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 0px;
+    }
+    
+    footer div#dados{
+        display: flex;
+        align-items: center;
+        flex-direction: column;   
+    }
+
+}
