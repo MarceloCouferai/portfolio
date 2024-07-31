@@ -61,3 +61,13 @@ form div.container-form button:hover{
     }
 }
 
+@media screen and (max-height: 670px){
+    form{
+        padding: 10px;
+    }
+    form div.container-form div.container-form-option{
+        gap: 0px;
+        font-size: 13px;
+        padding-bottom: 1rem;
+    }
+}

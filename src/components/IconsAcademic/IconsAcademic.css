@@ -1,8 +1,12 @@
+section.section-IconsAcademic{
+    padding: 4rem;
+}
+
 section.section-IconsAcademic div#title{
     align-items: center;
     text-align: center;
-    padding-bottom: 3rem;
     font-weight: 400;
+    padding-bottom: 3rem;
 }
 
 section.section-IconsAcademic div#icons ul{
@@ -10,7 +14,6 @@ section.section-IconsAcademic div#icons ul{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3rem;
 }
 
 section.section-IconsAcademic div#icons ul li img{
@@ -20,4 +23,15 @@ section.section-IconsAcademic div#icons ul li img{
 }
 section.section-IconsAcademic div#icons ul li img:hover{
     transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 600px){
+    section.section-IconsAcademic div#icons ul li img{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+
 }

@@ -22,7 +22,9 @@ export function Footer(){
                 </div>
                 <div id='dados'>
                 <div className='footer-email'>
-                    <FontAwesomeIcon icon={faEnvelope} />
+                    <div>
+                        <FontAwesomeIcon icon={faEnvelope} />
+                    </div>
                     <p >mcouferai</p>
                     <p>@gmail</p>
                     <p>.com</p>

@@ -16,7 +16,7 @@ section#professional div#container-professional{
 }
 
 section#professional div#container-professional h1{
-    padding-bottom: 3rem;
+    padding-top: 7rem;
     font-size: 35px;
 }
 
@@ -50,11 +50,10 @@ main div#container-img img{
 
 /* Responsividade: */
 
-@media screen and (max-width: 700px){
-    section#professional div#container-professional{
-        max-width: 90%;
+@media screen and (max-height: 800px){
+    section.section-professional{
+        padding-bottom: 0rem;
     }
-
     section#professional div ul img{
         width: 20px;
         height: 20px;

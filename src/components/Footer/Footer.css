@@ -60,3 +60,11 @@ footer div#dados div.footer-email{
     }
 
 }
+
+@media screen and (max-height: 670px){ 
+    footer{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+}
