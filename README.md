@@ -34,4 +34,4 @@ No meu portfólio, você encontrará:
 
 E-mail - mcouferai@gmail.com
 
-Linkedin - linkedin.com/in/marcelo-couferai/
+Linkedin - [www.linkedin.com/in/marcelo-couferai/](https://www.linkedin.com/in/marcelo-couferai/)
