@@ -14,7 +14,7 @@ export function Professional(props){
                 <a href={props.site}><img src={props.img} alt="" /></a>
                 <p>{props.conteudo}</p>
             </div> 
-            <div className='container-academic-dates'>
+            <div className='container-professional-dates'>
                 <ul>
                     <li>
                         <img src={imgIn} alt="Icone de entrada" />

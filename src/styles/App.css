@@ -32,11 +32,15 @@ a{
     to { opacity: 1;}
   }
 
-  div#Ancora-Professional{
-    height: 100vh;
-  }
-
 footer{
     margin-top: auto;
 }
 
+@media screen and (max-width: 600px){
+    
+    #AncoraAcademic{
+        padding-top: 5rem;
+    }
+
+    
+}
