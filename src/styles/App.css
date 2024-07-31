@@ -38,3 +38,11 @@ a{
     padding-bottom: 24rem;
   }
 
+footer{
+    margin-top: auto;
+}
+
+#formAncora{
+    height: 65vh;
+}
+

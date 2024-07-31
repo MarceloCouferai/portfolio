@@ -7,8 +7,8 @@ import { Professional } from "./components/Professional/Professional";
 import { Loading } from "./components/Loading/Loading";
 import { Academic } from "./components/Academic/Academic";
 import { IconsAcademic } from "./components/IconsAcademic/IconsAcademic";
-// import { Contato } from "./components/Contato/Contato";
-// import { Footer } from "./components/Footer/Footer";
+import { Contato } from "./components/Contato/Contato";
+import { Footer } from "./components/Footer/Footer";
 
 //images
 import unifeb from './assets/unifeb.png';
@@ -57,9 +57,9 @@ export function App() {
                         <IconsAcademic />
                     </div>
                     <div id="formAncora">
-                        {/* <Contato /> */}
+                        <Contato />
                     </div>
-                    {/* <Footer /> */}
+                    <Footer />
                 </div>
             )}
         </div>
