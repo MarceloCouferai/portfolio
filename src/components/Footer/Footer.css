@@ -8,6 +8,7 @@ footer div#container{
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin-left: 0;
 }
 
 footer div#icons{
@@ -31,5 +32,4 @@ footer div#dados{
 }
 footer div#dados div.footer-email{
     display: flex;
-    gap: 10px;
 }

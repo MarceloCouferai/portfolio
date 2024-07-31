@@ -23,7 +23,9 @@ export function Footer(){
                 <div id='dados'>
                 <div className='footer-email'>
                     <FontAwesomeIcon icon={faEnvelope} />
-                    <p >mcouferai@gmail.com</p>
+                    <p >mcouferai</p>
+                    <p>@gmail</p>
+                    <p>.com</p>
                 </div>
                     <p>© DESENVOLVIDO POR MARCELO COUFERAI</p>
                     <p>Barretos - 2024</p>
