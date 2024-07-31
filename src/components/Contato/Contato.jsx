@@ -4,8 +4,8 @@ import AOS from 'aos';
 export function Contato(){
     AOS.init();
     return(
-            <form id="formAncora" action="" data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom">
+            <form id="formAncora" action={process.env.REACT_APP_API_URL_SHEETMONKEY} data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" method="post">
                     <h3>Entre em contato!</h3>
                 <div className='container-form'>
                     <div className='container-form-option'>

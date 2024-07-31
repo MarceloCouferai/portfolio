@@ -19,6 +19,7 @@ import etec from './assets/etec.png'
 
 export function App() {
 
+
     const [loader, setLoader] = useState(true)
 
     useEffect(() => {
