@@ -3,9 +3,9 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 4rem;
-    font-size: 30px;
-    padding-top: 4rem;
+    /* gap: 4rem; */
+    /* font-size: 30px; */
+    /* padding-top: rem; */
 }
 
 form div.container-form div.container-form-option{
