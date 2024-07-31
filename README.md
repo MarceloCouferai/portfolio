@@ -32,6 +32,6 @@ No meu portfólio, você encontrará:
 
 ## Contato
 
-E-mail - [mcouferai@gmail.com]
+E-mail - mcouferai@gmail.com
 
-Linkedin - [linkedin.com/in/marcelo-couferai/]
+Linkedin - linkedin.com/in/marcelo-couferai/
