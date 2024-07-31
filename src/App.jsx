@@ -20,6 +20,7 @@ import etec from './assets/etec.png'
 export function App() {
 
 
+    console.log(process.env.REACT_APP_API_URL_SHEETMONKEY);
     const [loader, setLoader] = useState(true)
 
     useEffect(() => {
