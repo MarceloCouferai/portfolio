@@ -20,11 +20,6 @@ export function Contato(){
                         <label htmlFor="">Mensagem</label>
                         <textarea name="mensagem" id=""></textarea>
                     </div>
-                    <input 
-                        type="hidden" 
-                        name="x-sheetmonkey-redirect" 
-                        value="https://my-site.com/signup-success.html" 
-            />
                     <button type="submit">Enviar</button>
                 </div>
             </form>
